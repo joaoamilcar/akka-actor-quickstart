@@ -13,3 +13,8 @@ case class StringMessage(string: String)
   */
 case class StartCounting(number: Int, otherActor: ActorRef)
 case class Countdown(number: Int)
+
+/**
+  * AskActor
+  */
+case object AskName
